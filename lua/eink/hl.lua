@@ -37,7 +37,7 @@ function M.gen()
     local groups = {
         -- Base
         Normal = { fg = c.fg, bg = c.bg },
-        NormalFloat = { fg = c.fg, bg = c.bg1 },
+        NormalFloat = { fg = c.fg, bg = c.bg },
         NormalNC = { link = "Normal" },
         CursorLine = { bg = c.bg1 },
         CursorColumn = { link = "CursorLine" },
